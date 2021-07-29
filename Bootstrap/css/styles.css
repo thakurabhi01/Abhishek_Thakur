@@ -1,0 +1,134 @@
+a:hover{
+    color:#ffc4ff
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(254, 250, 246);
+    text-align: center;
+    
+}
+
+h1,h2,h3{
+    font-family: 'Lobster', cursive;
+    color: #232320;
+    
+}
+
+p{
+    font-size: 1.25rem;
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding:7% 15%;
+}
+
+/*Title section*/
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+}
+.navbar{
+    padding: 0 0 10rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    
+    
+}
+
+.nav-link{
+    color:#232320;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    
+}
+
+.navbar-toggler
+{
+    color: #232320;
+
+}
+
+.profile-img{
+    /*transform: rotate(25deg);
+    position: absolute;*/
+    
+}
+
+
+.heading-text{
+    font-size: 4rem;
+    line-height: 1;
+    padding-bottom: 5%;
+}
+
+.about-text{
+    text-align: left;
+}
+
+
+/*history*/
+.history-img{
+    margin-bottom: 1rem;
+}
+
+.brief-history-text{
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-bottom: 2%;
+}
+
+/*Currently reading*/
+
+
+#currentlyReading{
+   
+   padding-bottom: 3%;
+  
+}
+
+.currentlyReading-text{
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-bottom: 2%;
+}
+
+
+
+.carousel-control-prev-icon{
+    background-color: #ffc4ff;
+    
+}
+.carousel-control-next-icon{
+    background-color: #ffc4ff;
+    
+}
+
+
+/*Call to Action*/
+
+.footer-heading{
+    font-size: 8rem;
+    
+}
+
+
+/*media query */
+@media (max-width:500px){
+
+    .profile-img{
+        transform: rotate(5deg);
+        /*position: absolute;*/
+        width:100%;
+    }
+}
+
+
